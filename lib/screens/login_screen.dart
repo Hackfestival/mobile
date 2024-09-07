@@ -52,6 +52,7 @@ class _LoginScreenState extends State<LoginScreen> {
                   left: ProjectConstants.defaultPadding
               ),
               child: TextFormField(
+                obscureText: !_isPasswordVisible,
                 decoration: InputDecoration(
                   border: const OutlineInputBorder(),
                   focusedBorder: const OutlineInputBorder(
