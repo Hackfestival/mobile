@@ -24,7 +24,9 @@ class ProjectConstants {
   static const Color unselectedColorNavigationBar = Color(0xFF859494);
   // static const Color backgroundColorNavigationBar = Color();  currently default color
 
-
+  static const double defaultPadding = 20.0;
+  static const double largePadding = 100.0;
+  static const double defaultBorderRadius = 5.0;
 
   // Text Styles
   static const TextStyle headline1 = TextStyle(
@@ -37,9 +39,6 @@ class ProjectConstants {
     fontSize: 16.0,
     color: textColor,
   );
-
-  // BorderRadius
-  static const BorderRadius defaultBorderRadius = BorderRadius.all(Radius.circular(8.0));
 
   // Duration for Animations
   static const Duration animationDuration = Duration(milliseconds: 300);
