@@ -27,7 +27,7 @@ class _MapScreenState extends State<MapScreen> {
               markerId: const MarkerId('1'),
               position: const LatLng(49.4875, 8.4649),
               infoWindow: const InfoWindow(
-                title: 'Heidelberg',
+                title: 'Farmer\'s Market',
                 snippet: 'Germany',
               ),
             ),
@@ -38,7 +38,7 @@ class _MapScreenState extends State<MapScreen> {
               markerId: const MarkerId('1'),
               position: const LatLng(49.4875, 8.4750),
               infoWindow: const InfoWindow(
-                title: 'Heidelberg',
+                title: 'Farmer\'s Market',
                 snippet: 'Germany',
               ),
             ),
