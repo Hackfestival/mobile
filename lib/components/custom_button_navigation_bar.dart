@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:mobile/project_constants.dart';
+import 'package:mobile/constants/project_constants.dart';
 
 class CustomBottomNavigationBar extends BottomNavigationBar {
   CustomBottomNavigationBar({
