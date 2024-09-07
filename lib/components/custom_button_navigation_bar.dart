@@ -31,24 +31,14 @@ class CustomBottomNavigationBar extends BottomNavigationBar {
 
   static const List<BottomNavigationBarItem> _noAuthItems = [
     BottomNavigationBarItem(
-      icon: Icon(Icons.add_business_outlined),
-      activeIcon: Icon(Icons.add_business),
-      label: "Become a Producer"
-    ),
-    BottomNavigationBarItem(
-        icon: Icon(Icons.content_paste_outlined),
-        activeIcon: Icon(Icons.content_paste),
-        label: "Orders"
-    ),
-    BottomNavigationBarItem(
         icon: Icon(Icons.shopping_bag_outlined),
         activeIcon: Icon(Icons.shopping_bag),
         label: "Shopping"
     ),
     BottomNavigationBarItem(
-        icon: Icon(Icons.shopping_cart_outlined),
-        activeIcon: Icon(Icons.shopping_cart),
-        label: "Shopping Cart"
+        icon: Icon(Icons.map_outlined),
+        activeIcon: Icon(Icons.map),
+        label: "Overview"
     ),
     BottomNavigationBarItem(
         icon: Icon(Icons.login_outlined),
@@ -58,19 +48,19 @@ class CustomBottomNavigationBar extends BottomNavigationBar {
   ];
   static const List<BottomNavigationBarItem> _customerItems = [
     BottomNavigationBarItem(
-        icon: Icon(Icons.add_business_outlined),
-        activeIcon: Icon(Icons.add_business),
-        label: "Become a Producer"
-    ),
-    BottomNavigationBarItem(
         icon: Icon(Icons.content_paste_outlined),
         activeIcon: Icon(Icons.content_paste),
-        label: "Orders"
+        label: "Your Orders"
     ),
     BottomNavigationBarItem(
         icon: Icon(Icons.shopping_bag_outlined),
         activeIcon: Icon(Icons.shopping_bag),
         label: "Shopping"
+    ),
+    BottomNavigationBarItem(
+        icon: Icon(Icons.map_outlined),
+        activeIcon: Icon(Icons.map),
+        label: "Overview"
     ),
     BottomNavigationBarItem(
         icon: Icon(Icons.shopping_cart_outlined),
@@ -93,6 +83,11 @@ class CustomBottomNavigationBar extends BottomNavigationBar {
         icon: Icon(Icons.inventory_2_outlined),
         activeIcon: Icon(Icons.inventory_2),
         label: "Your Stock"
+    ),
+    BottomNavigationBarItem(
+        icon: Icon(Icons.map_outlined),
+        activeIcon: Icon(Icons.map),
+        label: "Overview"
     ),
     BottomNavigationBarItem(
         icon: Icon(Icons.person_outlined),
