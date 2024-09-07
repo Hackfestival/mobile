@@ -6,7 +6,7 @@ import 'package:mobile/screens/dummy.dart';
 import 'package:mobile/screens/edit_profile.dart';
 import 'package:mobile/screens/login_screen.dart';
 import 'package:mobile/screens/map_screen.dart';
-import 'package:mobile/screens/prducer_article_overview.dart';
+import 'package:mobile/screens/producer_article_overview.dart';
 import 'package:mobile/screens/producer_stock_overview.dart';
 import 'package:mobile/screens/shopping_cart.dart';
 import 'package:mobile/screens/shopping_overview.dart';
