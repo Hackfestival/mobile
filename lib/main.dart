@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:mobile/constants/project_constants.dart';
+import 'package:mobile/screens/login_screen.dart';
 
 void main() {
   runApp(const MyApp());
@@ -15,7 +17,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: const MyHomePage(title: 'Flutter Demo Home Page'),
+      home: const LoginScreen(),
     );
   }
 }
@@ -47,8 +49,8 @@ class _MyHomePageState extends State<MyHomePage> {
       ),
       body: Container(),
       bottomNavigationBar: BottomNavigationBar(
-        selectedItemColor: const Color(0xFF016905),
-        unselectedItemColor: const Color(0xFF636363),
+        selectedItemColor: ProjectConstants.primaryColor,
+        unselectedItemColor: ProjectConstants.secondaryColor,
         showSelectedLabels: true,
         showUnselectedLabels: true,
         currentIndex: _selectedIndex,
